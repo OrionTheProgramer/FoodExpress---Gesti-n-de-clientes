@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class SecurityConfig {
 
+    // Inicializar el password
     @Bean
     public Password passwordEncoder() {
         return new Password();
