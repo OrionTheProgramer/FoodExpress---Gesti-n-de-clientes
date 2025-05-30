@@ -24,6 +24,22 @@
     </properties>
 
     <dependencies>
+        <!-- Para poder enviar verificaciones de log-->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+        </dependency>
+
+        <!-- Spring Security para codificar la contraseña-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
         <!-- Spring Web & JPA -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
